@@ -25,7 +25,7 @@ export default function App() {
     var meaning = emojiDictionary[userInput];
 
     if (meaning === undefined) {
-      meaning = "we dont't have this in our database";
+      meaning = "we don't have this in our database";
     }
     setMeaning(meaning);
   }
